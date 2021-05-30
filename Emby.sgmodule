@@ -1,5 +1,9 @@
 !name=Emby
 !desc=Unlock Emby Premiere and Proxy Connections
 
+[MITM] hostname = %APPEND% mb3admin.com
+
+[Script] EmbyPremiere.js = type=http-response,pattern=^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice,requires-body=1,max-size=131072,script-path=https://raw.githubusercontent.com/rartv/SurgeScript/main/EmbyPremiere/EmbyPremiere.js
+
 [Rule]
 DOMAIN-SUFFIX, sg.jmsooo.com:8096, Proxy
