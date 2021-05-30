@@ -1,0 +1,5 @@
+!name=Emby
+!desc=Unlock Emby Premiere and Proxy Connections
+
+[Rule]
+DOMAIN-SUFFIX, sg.jmsooo.com:8096, Proxy
