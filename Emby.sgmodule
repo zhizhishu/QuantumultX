@@ -2,4 +2,4 @@
 #!desc=Unlock Emby Premiere and Proxy Connections
 
 [Rule]
-DOMAIN-SUFFIX, sg.jmsooo.com, 延迟最低
+DOMAIN-SUFFIX, sg.jmsooo.com, 节点选择
