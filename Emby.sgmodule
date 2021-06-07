@@ -2,4 +2,9 @@
 #!desc=Unlock Emby Premiere and Proxy Connections
 
 [Rule]
-DOMAIN-SUFFIX,sg.jmsooo.com,节点选择
+DOMAIN-SUFFIX,jmsooo.com,节点选择
+DOMAIN-SUFFIX,mb3admin.com,节点选择
+DOMAIN-SUFFIX,mickeycloud.com,节点选择
+DOMAIN-SUFFIX,plusmedia.site,节点选择
+DOMAIN-SUFFIX,emby.wtf,节点选择
+DOMAIN-SUFFIX,line.emby.men,节点选择
